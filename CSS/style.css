@@ -2,12 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: poppins;
  }
 
+ h1,h2,h3,p{
+   margin:10px;
+   color: white;
+}
+
+a{
+   color: rgb(57, 185, 101);
+}
+
+
  img{
-    width: 170px;
-    height: 160px;
+    width: 160px;
+    height: 140px;
     border-radius: 100%;
     position:absolute;
     right: 95px;
@@ -21,21 +31,21 @@
  }
 
  .header{
-    background-color: blue;
-    height:250px;
-    position: relative;
+    position:relative;
+    height: 200px;
+    background-color: #465c5a;
  }
 
  .header .text{
     position:absolute;
-    top: 75px;
-    right: 275px;
+    top: 55px;
+    right: 255px;
  }
 
  .menu{
     position:absolute;
-    top:200px;
-    left:135px;
+    top:125px;
+    left:145px;
  }
 
  .mainContent{
@@ -45,19 +55,38 @@
 
  .leftArea{
     width: 30%;
-    background-color: aquamarine;
+    background-color: rgb(80, 97, 95);
  }
 
  .rightArea{
     width: 70%;
-    background-color: lightgray;
+    background-color: rgb(83, 108, 105);
  }
 
- 
+ .education{
+   margin-top: 35px;
+   margin-left: 120px;
+   margin-bottom: 100px;
 
-    
+ }
 
+ .experience{
+   margin-top: 15px;
+   margin-left: 120px;
+   margin-bottom: 100px;
 
+ }
 
- 
- 
+ ul{
+   margin-left: 30px;
+   color: white;
+ }
+
+ .skills{
+   margin-top: 35px;
+   margin-left: 20px;
+ }
+
+ #languages, #courses, #contactDetails{
+   margin-top: 61px;
+ }
