@@ -1,1 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
 
+ img{
+    width: 170px;
+    height: 160px;
+    border-radius: 100%;
+    position:absolute;
+    right: 95px;
+    top: 20px;
+    border: 5px  solid white;
+ }
+
+ .Resume{
+    width: 80%;
+    margin: 0px auto;
+ }
+
+ .header{
+    background-color: blue;
+    height:250px;
+    position: relative;
+ }
+
+ .header .text{
+    position:absolute;
+    top: 75px;
+    right: 275px;
+ }
+
+ .menu{
+    position:absolute;
+    top:200px;
+    left:135px;
+ }
+
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .leftArea{
+    width: 30%;
+    background-color: aquamarine;
+ }
+
+ .rightArea{
+    width: 70%;
+    background-color: lightgray;
+ }
+
+ 
+
+    
+
+
+
+ 
+ 
